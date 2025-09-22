@@ -1,3 +1,245 @@
+## 1.9.8
+
+**Features**
+
+- 이미지 색상 반전을 옵션 페이지에서 선택할 수 있도록 기능 추가 [(#71)](https://github.com/joonas-yoon/boj-extended/issues/71) [(#188)](https://github.com/joonas-yoon/boj-extended/issues/188) [(#189)](https://github.com/joonas-yoon/boj-extended/issues/189)
+- - ![image](https://private-user-images.githubusercontent.com/9527681/483926759-297812af-effb-4511-9d03-2f0aa8fa794c.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTY2MTE5MTcsIm5iZiI6MTc1NjYxMTYxNywicGF0aCI6Ii85NTI3NjgxLzQ4MzkyNjc1OS0yOTc4MTJhZi1lZmZiLTQ1MTEtOWQwMy0yZjBhYThmYTc5NGMucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDgzMSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA4MzFUMDM0MDE3WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MTE3NjRiM2E1OTZlNDNkNzdhMDM1YmVhNmI4YmQ2YzI1MzAwNmUyNTkwZDg3YjYzNmJiOTZlZGI1NzY5MTA3YiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.Q2FUYpDul6HEyneYUaHs8G5HWx16pc_IFyBkfMyQR9I) ![image](https://private-user-images.githubusercontent.com/9527681/483926755-482bb4bb-271e-40f9-b322-a8e47ca0c4b9.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTY2MTE5MTcsIm5iZiI6MTc1NjYxMTYxNywicGF0aCI6Ii85NTI3NjgxLzQ4MzkyNjc1NS00ODJiYjRiYi0yNzFlLTQwZjktYjMyMi1hOGU0N2NhMGM0YjkucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDgzMSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA4MzFUMDM0MDE3WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9Njc4NTIwZTRiODA4NjhmYjVhMmNiMDNmOTdkNmFmODcwYmRlZTE1NjI2ZTU5NGQxMjU1OWNiMzcwYjk4Zjk5NyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.pd6UYvVzCKeFKT93JpzKU7bcjJ1TSr8kW8MYJ3D2Dbo)
+
+## 1.9.7.1
+
+**Fixes**
+
+- 옵션 페이지에서 문제 번호 라벨이 정상적으로 표시되지 않던 버그 수정
+- (hotfix) build 최적화 시 제외 파일에 third party 추가 [(#176)](https://github.com/joonas-yoon/boj-extended/issues/176)
+
+## 1.9.7
+
+**Features**
+
+- 내가 작성한 글 검색 버튼 추가 [(#172)](https://github.com/joonas-yoon/boj-extended/issues/172)
+- - ![image](https://private-user-images.githubusercontent.com/9527681/426570199-644b3253-d1ca-46e2-b178-de6722ac2686.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI5MTMxMDksIm5iZiI6MTc0MjkxMjgwOSwicGF0aCI6Ii85NTI3NjgxLzQyNjU3MDE5OS02NDRiMzI1My1kMWNhLTQ2ZTItYjE3OC1kZTY3MjJhYzI2ODYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDMyNSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAzMjVUMTQyNjQ5WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NjcwNTA0ODE5N2ExMjBiMDVhODMxMzVmNzg5ODIzOWZiM2FiM2U5N2IzZjlmYjliMjg4ZGFkYzIxY2Q3YmNjNyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.MH7HMUCUEOih3N1kqXE22HJz8SCV6JlNolgY5UqEM9c)
+- 유저 페이지에서 문제 관련 기능 비활성화 체크박스 추가  [(#173)](https://github.com/joonas-yoon/boj-extended/issues/173)
+- - ![image](https://private-user-images.githubusercontent.com/9527681/425361125-6ca9fa1a-d72d-4c3f-937a-a6f5da6393b8.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI5MTMxOTMsIm5iZiI6MTc0MjkxMjg5MywicGF0aCI6Ii85NTI3NjgxLzQyNTM2MTEyNS02Y2E5ZmExYS1kNzJkLTRjM2YtOTM3YS1hNmY1ZGE2MzkzYjguZ2lmP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDMyNSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAzMjVUMTQyODEzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YWNmZTk4ZWRmYzM5MjY3MzVkMjVhMzk1MDVmNTQyMGM4MTkyZWM5MzdhNWYxZmI1Y2YxODhkYzQ4OGIzZTczNiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.-kLoaG9DCMMtMT5cOZzcZjE9F0M-hRA57RxAbSzCpjo)
+
+**Fixes**
+
+- 문제 정보 불러올 때 캐싱이 적용되지 않는 버그 수정
+- 예제 채점 시 stdout과 stderr가 모두 출력되었을 경우의 아이콘 변경 [(#174)](https://github.com/joonas-yoon/boj-extended/issues/174)
+- - ![image](https://github.com/user-attachments/assets/e1275f62-aed2-4562-b222-f6d16a12ffd4)
+
+## 1.9.6
+
+**Features**
+
+- 제출 페이지에서 예제 입출력 테스트 기능 추가 [(#143)](https://github.com/joonas-yoon/boj-extended/issues/143) [(#169)](https://github.com/joonas-yoon/boj-extended/issues/169)
+- - thanks to [@ruk13xa](https://github.com/ruk13xa)
+- - ![image](https://raw.githubusercontent.com/joonas-yoon/boj-extended/refs/heads/dev/docs/images/screenshot-test.png)
+
+**Fixes**
+
+- 다크모드에서 그룹 게시판 글쓰기 색상 버그 수정 [(#168)](https://github.com/joonas-yoon/boj-extended/issues/168)
+
+## 1.9.5
+
+**Fixes**
+
+- 다크모드에서 유저 티어가 잘못 표시되는 버그 수정 [(#153)](https://github.com/joonas-yoon/boj-extended/issues/153)
+- 다크모드에서 사이트 로고가 잘못 표시되는 버그 수정 [(#161)](https://github.com/joonas-yoon/boj-extended/issues/161)
+- - thanks to [@star0202](https://github.com/star0202)
+- 그룹에서 "파일" 하이퍼링크 수정 [(#159)](https://github.com/joonas-yoon/boj-extended/issues/159)
+- 올바르지 않은 위치에 유저 티어가 표시되는 현상 수정 [(#155)](https://github.com/joonas-yoon/boj-extended/issues/155)
+- 유저 조회를 위한 solved.ac API 엔드포인트 변경 [(#162)](https://github.com/joonas-yoon/boj-extended/issues/162)
+
+## 1.9.4.2
+
+**Fixes**
+
+- 잘못된 접근자 사용 수정
+- 유저 정보 관련 solved.ac API 연동 복구
+
+## 1.9.4.1
+
+**Fixes**
+
+- solved.ac API 접근 방법 수정 [(#148)](https://github.com/joonas-yoon/boj-extended/issues/148)
+
+## 1.9.4
+
+**Changes**
+
+- solved.ac API 업데이트로 인한 사용 불가 안내 [(#138)](https://github.com/joonas-yoon/boj-extended/issues/138)
+- - ![image](https://user-images.githubusercontent.com/9527681/223463527-3e62f76b-d7ba-4e11-9d38-0175afc258a1.png)
+- 코드 에디터 색상의 시인성 개선 [(#135)](https://github.com/joonas-yoon/boj-extended/issues/135)
+
+**Fixes**
+
+- 옵션 페이지 버그 수정 [(#140)](https://github.com/joonas-yoon/boj-extended/issues/140)
+
+## 1.9.3.1
+
+**Changes**
+
+- 일부 오래된 파일 제거
+- 디렉토리 구조 업데이트
+
+## 1.9.3
+
+**Features**
+
+- '문제 번호'와 '문제 제목' 보기를 체크 박스로 변경
+- - thanks to [@VertexToEdge](https://github.com/VertexToEdge)
+- - ![image](https://user-images.githubusercontent.com/9527681/199667796-7eca16ac-5b26-43a4-85fe-eabf65c5c6c3.png)
+
+**Fixes**
+
+- 같은 페이지에서 마지막으로 본 페이지를 표시하던 버그 수정
+- 캐시 업데이트 이전에 문제 색상이 변경되지 않던 버그 수정
+
+## 1.9.2
+
+**Features**
+
+- `unlimitedStorage` 권한 추가
+
+**Fixes**
+
+- 옵션 페이지의 문제 난이도 예시 버그 수정
+- solved.ac API 요청 횟수를 줄이기 위한 로컬 캐싱
+- - 유저 티어 불러오기 관련 [(#122)](https://github.com/joonas-yoon/boj-extended/issues/122)
+- - 유저 페이지에서 문제 정보의 소스를 solved.ac로 변경하고 캐싱 적용
+
+## 1.9.1
+
+**Features**
+
+- 유저 페이지
+- - 문제의 난이도와 그 색상을 표시하는 옵션 추가 (옵션 페이지에서 설정 가능)
+- - ![image](https://user-images.githubusercontent.com/9527681/194349706-91a7f929-4790-4301-b842-3306d2c9c340.png)
+
+**Fixes**
+
+- 유저 프로필 페이지의 동작을 최적화
+- - 평균 5200 밀리초에 렌더링되던 동작들이 평균 3200 밀리초로 감소
+- - 체감 속도는 120 밀리초에서 1초 사이 (CSSOM 먼저 업데이트 후, DOM 트리 변경으로)
+- `db.json` 버전을 `1.1.0`으로 올리고 디렉토리를 변경 (`/db/v1.1json`)
+- - 문제 난이도 필드 추가
+- DOM 노드 생성 함수의 버그 수정
+
+## 1.9.0
+
+**Features**
+
+- 유저의 solved.ac 티어 표시 기능 [(#115)](https://github.com/joonas-yoon/boj-extended/issues/115)
+- - thanks to [@spotky1004](https://github.com/spotky1004)
+- - 연동되지 않은 사용자는 물음표 티어로 표시
+- - ![image](https://user-images.githubusercontent.com/9527681/193469068-7c85cbc2-646d-4cdc-8521-f7334028910a.png)
+- - ![image](https://user-images.githubusercontent.com/9527681/193469078-56d57942-245f-4707-94af-9cd5997d3874.png)
+- - ![image](https://user-images.githubusercontent.com/9527681/193470404-b07d865e-271b-4e37-8d42-1012994cd12b.png)
+
+## 1.8.4.1
+
+**Fixes**
+
+- 빠른 검색 단축키 버그 수정 ([#113](https://github.com/joonas-yoon/boj-extended/issues/113))
+
+## 1.8.4
+
+**Features**
+
+- 폰트 설정 추가
+- - ![image](https://user-images.githubusercontent.com/9527681/185799041-5cb4ec91-212a-4cb1-ac03-d36213020b05.png)
+- - ![image](https://user-images.githubusercontent.com/9527681/185799019-c55567ff-a306-4d4b-ab62-6600eac0a6ac.png)
+
+**Fixes**
+
+- rigel 테마에서 문제 링크의 색상 수정
+- 퍼센트 표시
+- - 런타임 오류 시 버그 수정 [(#78)](https://github.com/joonas-yoon/boj-extended/issues/78)
+- - - ![](https://user-images.githubusercontent.com/9527681/185526258-4292730f-a713-48a4-9f45-11ccd2c39d1b.gif)
+- - 부분 점수에서도 표시되도록 변경 [(#74)](https://github.com/joonas-yoon/boj-extended/issues/74)
+- - - ![](https://user-images.githubusercontent.com/9527681/185736731-6abd17a7-4a36-4e80-b8ac-75b615778ae6.png)
+- 옵션 페이지에서 "결과 바꾸기"가 저장이 안 되던 버그 수정
+- 일부 함수 최적화
+
+## 1.8.3.1
+
+**Features**
+
+- 마지막으로 본 페이지 알림
+- - ![](https://user-images.githubusercontent.com/9527681/185457113-4550612a-f3b7-4885-bf90-2e3b1dcd28df.png)
+- - (1) 크롬 탭을 종료하고 사이트에 새로 접속한 경우
+- - (2) 4시간 이상 지나고 새로운 페이지를 접근한 경우 (다른 컴퓨터에서도 가능)
+
+**Fixes**
+
+- 확장 프로그램을 최초로 실행할 때, 테마가 시스템 설정을 따르도록 변경
+- (hotfix) 런타임 오류 메시지 코드가 반영이 안 되었던 것을 수정
+
+## 1.8.3
+
+**Restores**
+
+- 유저 VS 페이지 복구
+- 게시글 개수 표시 복구
+- 문제 해결 여부에 따른 색상 표시 복구
+
+**Changes**
+
+- 유저 페이지
+- - 문제 표시 UI 변경
+- - - ![](https://user-images.githubusercontent.com/9527681/185422492-2f19157e-a732-4934-9bcc-b67875997b55.png)
+- - VS 버튼에 배경 효과 추가
+- - - ![](https://user-images.githubusercontent.com/9527681/185434073-a015164b-d027-4b08-8b05-709250ca2863.png)
+
+## 1.8.2
+
+**Features**
+
+- 새 테마 추가 (`Rigel`)
+- - ![](https://user-images.githubusercontent.com/9527681/166296279-c25bea15-679e-4672-a776-8cd0ed8cb73e.png)
+- 런타임 오류 결과에 간략한 메시지 툴팁 추가
+- - ![](https://user-images.githubusercontent.com/9527681/184939662-953b28ea-b36e-4b68-a78b-f26cc792c6c9.gif)
+
+**Changes**
+
+- 디렉토리 구조 리팩토링
+- 사용하지 않는 파일과 변수들 삭제
+
+## 1.8.1
+
+**Notice**
+
+- 테마 기능 업데이트로 생긴 버그 때문에 `1.8.0`을 `1.7.6`으로 되돌림 [(#90)](https://github.com/joonas-yoon/boj-extended/issues/90)
+
+## 1.8.0
+
+**Features**
+
+- 새 테마 추가
+- - 시스템에 따른 자동 설정
+- - `Rigel`
+- - 테마 선택 UI 변경 (드롭다운)
+
+## 1.7.8.1
+
+**Fixes**
+
+- 그룹 페이지 업데이트 [(#87)](https://github.com/joonas-yoon/boj-extended/issues/87)
+- - **멤버** 탭 삭제에 따라 관련 기능 삭제
+- - 비로그인 상태에서 보이는 탭 변경
+- - 문제집 URL 변경
+
+## 1.7.7
+
+**Fixes**
+
+- 프로필 화면의 문제 제목 표시 오류 수정 [(#83)](https://github.com/joonas-yoon/boj-extended/issues/83)
+- 백그라운드 서비스 워커에서 설정 파일을 불러오는 경로 수정
+
+**Removes**
+
+- 유저 VS 기능 삭제
+
 ## 1.7.6
 
 **Features**
@@ -70,6 +312,8 @@
 
 - 검색 페이지에도 문제 색상 적용 [(#54)](https://github.com/joonas-yoon/boj-extended/issues/54)
 - 빠른 검색에 탭 추가 [(#55)](https://github.com/joonas-yoon/boj-extended/issues/55)
+- ![](https://user-images.githubusercontent.com/9527681/148531868-98836957-908e-4a7e-b8d6-899eb05c4f6e.png)
+- ![](https://user-images.githubusercontent.com/9527681/148532062-07326dbe-1bb1-448f-b94f-b8f8dc121683.png)
 
 **Fixes**
 
@@ -86,6 +330,7 @@
 
 - 빠른 검색 [(#48)](https://github.com/joonas-yoon/boj-extended/issues/48)
 - - `ctrl` + `/` 또는 `alt` + `/`
+- - ![](https://user-images.githubusercontent.com/9527681/140657019-eb299c53-1c07-4c0a-bb0b-e52f8cef537a.png)
 
 ## 1.5.11
 
@@ -94,12 +339,15 @@
 **Features**
 
 - 알림 페이지에서 문제 색상 적용 [(#44)](https://github.com/joonas-yoon/boj-extended/issues/44)
+- - ![](https://user-images.githubusercontent.com/9527681/140634324-9ea2582f-b36f-433a-907a-22b0614456f1.png)
 
 **Fixes**
 
 - 어두운 테마
 - - 댓글 하이라이팅 [(#45)](https://github.com/joonas-yoon/boj-extended/issues/45)
-- - 외부 대회 일정 ([#46](https://github.com/joonas-yoon/boj-extended/issues/46) by [@comment2](https://github.com/comment2))
+- - 외부 대회 일정 ([#46](https://github.com/joonas-yoon/boj-extended/issues/46)
+- - thanks to [@comment2](https://github.com/comment2)
+- - ![](https://user-images.githubusercontent.com/86146642/139788933-c27009cb-c3b6-441e-b092-4bdfb47558be.png)
 
 ## 1.5.10
 
@@ -108,6 +356,7 @@
 **Features**
 
 - 타이머에 시간 표기 추가 [(#41)](https://github.com/joonas-yoon/boj-extended/issues/41)
+- - ![](https://user-images.githubusercontent.com/9527681/137610903-c7f39a95-009e-44bd-b474-1af98f9f481f.png)
 
 **Fixes**
 
@@ -127,7 +376,10 @@
 **Features**
 
 - 소스 코드(제출, 코드보기, 하이라이트)를 어두운 테마에서도 적용 [(#34)](https://github.com/joonas-yoon/boj-extended/issues/34) [(#38)](https://github.com/joonas-yoon/boj-extended/issues/38)
+- - ![](https://user-images.githubusercontent.com/9527681/135277080-03645e22-b717-4b17-8e16-6a8b00ad68bc.png)
+- - ![](https://user-images.githubusercontent.com/9527681/135742049-4ef88d4a-8c77-4faa-a7c3-82b04a6ca457.png)
 - 재채점 페이지에도 문제 제목 적용 [(#25)](https://github.com/joonas-yoon/boj-extended/issues/25)
+- - ![](https://user-images.githubusercontent.com/9527681/135744218-14f711c8-78ca-4919-af2a-f8613847d07a.png)
 
 **Fixes**
 
@@ -191,7 +443,9 @@
 
 - 어두운 테마
 - - 언어 선택 dropdown [(#26)](https://github.com/joonas-yoon/boj-extended/issues/26)
+- - ![](https://user-images.githubusercontent.com/9527681/131237431-cd38328f-c16e-4cf1-8162-32eab2749fa5.png)
 - - 에디터에도 색상 반전 적용 [(#27)](https://github.com/joonas-yoon/boj-extended/issues/27)
+- - ![](https://user-images.githubusercontent.com/9527681/131237270-7699f489-85f6-43e2-8a0f-8c3a9d54ff3d.png)
 
 **Changes**
 
@@ -208,6 +462,7 @@
 - 채점 현황
 - - 퍼센트(%) 기록을 로컬에 저장하여 표시 (`localStorage`)
 - - 부분 점수에도 퍼센트(%) 기록을 표시
+- - ![](https://user-images.githubusercontent.com/9527681/128722599-c2dc230d-47f9-406e-a697-13682a87ad79.gif)
 - 옵션
 - - 페이지 레이아웃 수정
 
@@ -221,6 +476,7 @@
 - - 이미지를 어둡게 변환하여 표시 [(#20)](https://github.com/joonas-yoon/boj-extended/issues/20)
 - 채점 현황
 - - 채점이 종료되면 몇 퍼센트(%)에서 틀렸는 지 임시로 표시 (해당 페이지의 전역 변수)
+- - thanks to [@zinccccc](https://www.acmicpc.net/user/zinccccc)
 - 그룹
 - - 그룹 목록에서 내부 메뉴로 바로 이동할 수 있는 링크 추가
 
@@ -263,6 +519,7 @@
 
 - 유저 VS 추가
 - - 과거 URL(`/vs/user1/user2`)를 그대로 지원
+- - ![](https://user-images.githubusercontent.com/9527681/126895334-57f9167e-2dee-416f-ae28-57586d57a1ca.png)
 
 ## v1.4.6
 
@@ -272,10 +529,12 @@
 
 - 유저 프로필의 문제 표시 수 수정 [(#16)](https://github.com/joonas-yoon/boj-extended/issues/16)
 - - 더보기 추가
+- - ![](https://user-images.githubusercontent.com/9527681/117659307-c1f35700-b1d6-11eb-831c-dcc9c7ae5ff6.png)
 
 **Fixes**
 
 - 그룹 내의 스코어 보드에 CSS가 적용되지 않은 것 수정 [(#17)](https://github.com/joonas-yoon/boj-extended/issues/17)
+- - ![](https://user-images.githubusercontent.com/9527681/124287962-957f0a00-db8b-11eb-9e11-15de40f12a55.png)
 
 ## v1.4.5
 
@@ -344,6 +603,7 @@
 **Features**
 
 - 문제 타이머 추가
+- - ![](https://user-images.githubusercontent.com/9527681/105990512-ecb51600-60e5-11eb-8ce5-9d44adde2839.png)
 
 **Fixes**
 
@@ -360,8 +620,10 @@
 
 - 제출 결과 텍스트를 변경 가능
 - - 일부 결과는 보류 (채점 중, 부분 점수, 런타임 에러)
-- 옵션 페이지 추가 [(#1)](https://github.com/joonas-yoon/boj-extended/issues/1)
+- - ![](https://user-images.githubusercontent.com/33388801/134762385-966db4c5-d104-41c5-adaa-8b29bc7bce7f.png)
+- 옵션 페이지 추가
 - - '확장 프로그램의 옵션' 또는 'BOJ의 설정 페이지의 왼쪽 메뉴'에서 접근 가능
+- ![](https://user-images.githubusercontent.com/33388801/134762398-66646b7f-b3af-4d89-9f85-489128a2989f.png)
 
 ## v1.3.1
 
@@ -385,7 +647,8 @@
 
 **Features**
 
-- 어두운 테마 추가
+- 어두운 테마 추가 [(#1)](https://github.com/joonas-yoon/boj-extended/issues/1)
+- - ![](https://user-images.githubusercontent.com/9527681/105626575-cdaf4d80-5e73-11eb-8ca4-30cb8cce0959.png)
 - Github action으로 빌드 자동화
 
 ## v1.2.1

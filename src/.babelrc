@@ -1,0 +1,40 @@
+{
+  "presets": [
+    [
+      "@babel/env",
+      {
+        "targets": {
+          "chrome": "55",
+          "firefox": "60"
+        },
+        "modules": false
+      }
+    ]
+  ],
+  "plugins": [
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-transform-arrow-functions"
+  ],
+  "ignore": ["**/build/*", "**/*.min.js", "**/third/*"],
+  "env": {
+    "production": {
+      "comments": false,
+      "presets": [
+        [
+          "minify",
+          {
+            "builtIns": false
+          }
+        ]
+      ],
+      "plugins": [
+        [
+          "transform-remove-console",
+          {
+            "exclude": ["error", "warn"]
+          }
+        ]
+      ]
+    }
+  }
+}
